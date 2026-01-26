@@ -8,7 +8,7 @@
 
 ---
 
-## 🧠 Technical Skills
+## Technical Skills
 
 ### 🧑‍💻 Programming Languages
 ![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -45,14 +45,39 @@
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
 ---
+## 🤖 GenAI / LLM Skills
 
+### 🔹 Models & Libraries
+![LLaMa3](https://img.shields.io/badge/LLaMa3-FF6F61?style=for-the-badge)
+![Groq](https://img.shields.io/badge/Groq-0F52BA?style=for-the-badge)
+![OpenAI Whisper](https://img.shields.io/badge/Whisper-8A2BE2?style=for-the-badge)
+![Sentence Transformers](https://img.shields.io/badge/Sentence-Transformers-FF4500?style=for-the-badge)
+![FAISS](https://img.shields.io/badge/FAISS-0078D7?style=for-the-badge)
+
+### 🛠️ Libraries & Utilities
+![PyDub](https://img.shields.io/badge/PyDub-FF6347?style=for-the-badge)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge)
+![ReportLab](https://img.shields.io/badge/ReportLab-2E8B57?style=for-the-badge)
+![FPDF](https://img.shields.io/badge/FPDF-4682B4?style=for-the-badge)
+
+---
+
+## ⚙️ Tools
+
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge)
+
+---
 ### 📌 Highlights
 ✅ Built **secure & compliant banking data pipelines**  
 ✅ Designed **high-performance ETL / ELT workflows**  
 ✅ Experience with **large-scale batch processing**  
 ✅ Strong background in **SQL optimization & reporting**
 
-## 🧠 Featured Project
+## Featured Project
 
 ### 🔹 LLM-Powered Meeting Intelligence System
 📌 **Tech Stack:** Python, LLaMA 3, Whisper, FAISS, RAG, Streamlit
@@ -76,7 +101,7 @@
 - PDF download
 
 ## 📫 Connect With Me
-- 💼 LinkedIn: *(add your LinkedIn link)*
+- 💼 LinkedIn: *www.linkedin.com/in/priyusha24*
 - 💻 GitHub: https://github.com/priyushach99
 
 ---
