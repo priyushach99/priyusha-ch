@@ -1,7 +1,8 @@
-# priyusha-ch
 ## 👨‍💻 About Me
+# 👋 Hi, I'm Priyusha
 
-💼 **Data Engineer (4+ Years Experience)**  
+🎓 Master's Student (Class of 2027) |💼 Data Engineer (4+ Years Experience) | 💻 Data & AI Enthusiast | 🤖 LLM Developer  
+🚀 Passionate about building AI-powered applications using LLMs, RAG, and NLP
 🚀 Specialized in building **scalable, secure, and regulatory-compliant data pipelines** for banking & enterprise systems.  
 📊 Strong expertise in **ETL / ELT, large-scale batch processing, and analytics-ready data modeling**.
 
@@ -51,3 +52,33 @@
 ✅ Experience with **large-scale batch processing**  
 ✅ Strong background in **SQL optimization & reporting**
 
+## 🧠 Featured Project
+
+### 🔹 LLM-Powered Meeting Intelligence System
+📌 **Tech Stack:** Python, LLaMA 3, Whisper, FAISS, RAG, Streamlit
+
+🔹 Built an AI system that:
+- Transcribes meeting audio using **Whisper**
+- Generates structured summaries using **LLMs**
+- Extracts **action items**
+- Supports **semantic search using RAG**
+- Prevents hallucination using similarity thresholds
+- Allows **PDF export**
+- Runs on **Streamlit Cloud**
+
+🔗 **GitHub Repo:**  
+👉 https://github.com/priyushach99/llm_meeting_summarizer
+
+📸 **Demo Features**
+- Audio upload & playback
+- AI-generated meeting summary
+- Ask-anything from meeting (RAG)
+- PDF download
+
+## 📫 Connect With Me
+- 💼 LinkedIn: *(add your LinkedIn link)*
+- 💻 GitHub: https://github.com/priyushach99
+
+---
+
+⭐ If you like my work, feel free to star my repositories!
