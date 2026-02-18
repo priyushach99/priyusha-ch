@@ -14,7 +14,6 @@
 ✅ Designed **high-performance ETL / ELT workflows**  
 ✅ Experience with **large-scale batch processing**  
 ✅ Strong background in **SQL optimization & reporting**
-
 ✅ Proven ability to architect **full-stack solutions integrating Python backends, Java data processing with JVM optimization, and React/TypeScript frontends**
 
 ---
