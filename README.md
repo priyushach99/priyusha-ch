@@ -1,7 +1,7 @@
 ## 👨‍💻 About Me
 # 👋 Hi, I'm Priyusha
 
-🎓 Master's Student (Class of 2027) |💼 Data Engineer (5+ Years Experience) | 💻 Data & AI Enthusiast | 🤖 LLM Developer  
+💼 Software Engineer (5+ Years Experience) | 💻 Data & AI Enthusiast | 🤖 LLM Developer  
 🚀 Passionate about building AI-powered applications using LLMs, RAG, and NLP
 🚀 Specialized in building **scalable, secure, and regulatory-compliant data pipelines** for banking & enterprise systems.  
 📊 Strong expertise in **ETL / ELT, large-scale batch processing, and analytics-ready data modeling**.
