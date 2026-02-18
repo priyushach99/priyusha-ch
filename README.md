@@ -9,6 +9,15 @@
 
 ---
 
+### 📌 Highlights
+✅ Built **secure & compliant banking data pipelines**  
+✅ Designed **high-performance ETL / ELT workflows**  
+✅ Experience with **large-scale batch processing**  
+✅ Strong background in **SQL optimization & reporting**
+✅ Proven ability to architect **full-stack solutions integrating Python backends, Java data processing with JVM optimization, and React/TypeScript frontends**
+
+---
+
 ## Technical Skills
 
 ### 🧑‍💻 Programming Languages
@@ -73,11 +82,6 @@
 ![Shell](https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge)
 
 ---
-### 📌 Highlights
-✅ Built **secure & compliant banking data pipelines**  
-✅ Designed **high-performance ETL / ELT workflows**  
-✅ Experience with **large-scale batch processing**  
-✅ Strong background in **SQL optimization & reporting**
 
 ## Featured Project
 
