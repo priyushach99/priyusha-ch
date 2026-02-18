@@ -5,7 +5,7 @@
 🚀 Passionate about building AI-powered applications using LLMs, RAG, and NLP
 🚀 Specialized in building **scalable, secure, and regulatory-compliant data pipelines** for banking & enterprise systems.  
 🚀 Proven ability to architect full-stack solutions integrating Python backends, Java data processing with JVM optimization, and React/TypeScript frontends
-📊 Strong expertise in **ETL / ELT, large-scale batch processing, and analytics-ready data modeling**.
+📊 Strong expertise in ETL / ELT, large-scale batch processing, and analytics-ready data modeling.
 
 ---
 
