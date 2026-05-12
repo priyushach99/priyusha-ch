@@ -73,7 +73,6 @@ The interesting engineering challenge was getting RAG retrieval quality right �
 
 ## Currently
 
-- 📚 MS Information Systems — in progress
 - 🔍 Exploring agentic pipelines that connect LLMs to production data systems
 - 💼 Open to **Data engineering** and **AI/ML engineering** roles
 
