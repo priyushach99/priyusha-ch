@@ -40,6 +40,11 @@ Turns meeting recordings into structured summaries using Whisper transcription, 
 
 **Data & pipelines**
 `PySpark` `Spark SQL` `Apache Airflow` `ETL / ELT` `Snowflake` `PostgreSQL`
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white)
+![Spark SQL](https://img.shields.io/badge/Spark_SQL-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black)
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![ETL](https://img.shields.io/badge/ETL/ELT-4CAF50?style=for-the-badge)
 
 **Cloud & infra**
 `AWS S3` `AWS IAM` `Linux` `Shell`
