@@ -1,54 +1,38 @@
 ## 👨‍💻 About Me
-# 👋 Hi, I'm Priyusha
 
 # Hi, I'm Priyusha 👋
 
-Data engineer with 5+ years building batch pipelines that process millions of records daily — the kind where correctness and reliability aren't optional. My day-to-day lives in PySpark, Airflow, Snowflake, and AWS.
+Data engineer with 5+ years building batch pipelines that process millions of records daily - the kind where correctness and reliability aren't optional. My day-to-day lives in PySpark, Airflow, Snowflake, and AWS.
 
-After hours, I've been exploring what LLMs can do when wired into real data systems. That curiosity led me to build a RAG-based meeting summarizer — and eventually back to school. I'm currently doing my **MS in Information Systems** because I kept hitting questions at work I couldn't fully answer yet.
+After hours, I've been exploring what LLMs can do when wired into real data systems. That curiosity led me to build a RAG-based meeting summarizer - and eventually back to school. I'm currently doing my **MS in Information Systems** to advance my skills on scalable data platforms, and AI-driven data solutions.
 
 ---
 
-## What I build
+## What I actually build
 
 | | |
 |---|---|
-| 🔄 **Batch pipelines** | High-volume PySpark jobs with incremental processing, data quality checks, and performance tuning |
-| 🌿 **Workflow orchestration** | Airflow DAGs with dependency management, retry logic, and SLA tracking for production reliability |
+| 🔄 **Batch pipelines** | High-volume PySpark ETL with incremental loads, schema drift handling, and data quality validation gates |
+| ⚡ **Streaming** | Kafka + Spark Structured Streaming — micro-batch processing with checkpoint recovery and weighted-merge aggregation |
+| 🌿 **Orchestration** | Airflow DAGs with dependency management, retry logic, SLA tracking, and automated archival |
 | 🗄️ **Data storage** | Snowflake and PostgreSQL on AWS — analytical and transactional, both at scale |
-| 🤖 **LLM / GenAI** | RAG systems, vector search with FAISS, voice-to-text pipelines using Whisper + LLaMA3 |
-
----
-
-## How I work
-
-→ My core focus is **ETL/ELT pipelines processing millions of records daily** — incremental loads, schema drift handling, and surfacing data quality issues before they hit downstream consumers
-
-→ I sit at the **development and delivery end** — shipping features and ensuring pipeline correctness — with enough production support experience to know what breaks and why
-
-→ I pick up new tech fast, not just reading docs but **actually building something** with it. The GenAI projects started that way and turned into a real direction
-
----
-
-## Side project that changed my direction
-
-Built an LLM-powered meeting summarizer using RAG, FAISS vector search, and LLaMA3 — just to see if it was possible. It worked well enough that I wanted to understand the fundamentals properly, which is a big part of why I started the MS.
+| 🤖 **LLM integration** | GPT-4o via prompt engineering, RAG with FAISS, rule-engine-as-ground-truth pattern to prevent hallucinated figures |
 
 ---
 
 ## Featured projects
 
-### 📁 [meeting-summarizer-rag](https://github.com/priyusha/meeting-summarizer-rag)
-> `Python` `LLaMA3` `FAISS` `Whisper` `RAG`
+### 📁 [AI Unified Data Platform](https://github.com/priyushach99/ai-unified-data-platform)
+> `PySpark` `Kafka` `Airflow` `PostgreSQL` `GPT-4o` `Docker` `Python`
 
-Turns meeting recordings into structured summaries using Whisper transcription, RAG-based context retrieval, and LLM generation. Personal project that sparked the MS.
+A fully operational banking transaction intelligence pipeline — dual ingestion (Spark batch + Kafka streaming), shared transformation layer, PostgreSQL storage with schema evolution, and GPT-4o anomaly summarization. Built with production-grade decisions: MD5-keyed LLM cache, graceful fallback on API failure, weighted-average Kafka micro-batch merging, and a rule engine that acts as immutable ground truth before any LLM call.
 
 ---
 
-### 📁 [pyspark-etl-framework](https://github.com/priyusha/pyspark-etl-framework)
-> `PySpark` `Snowflake` `Airflow` `PostgreSQL`
+### 📁 [LLM-Powered Meeting Intelligence System](https://github.com/priyushach99/llm_meeting_summarizer)
+> `Python` `LLaMA3` `FAISS` `Whisper` `RAG`
 
-Modular ETL framework built for high-volume batch workloads — incremental loading, data quality validation, and Airflow orchestration with retry and SLA support.
+Turns meeting recordings into structured summaries using Whisper transcription, FAISS vector search, and LLM generation. The project that started the GenAI path — and eventually the MS.
 
 ---
 
