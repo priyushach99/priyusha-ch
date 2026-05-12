@@ -4,7 +4,7 @@
 
 Data engineer with 5+ years building batch pipelines that process millions of records daily - the kind where correctness and reliability aren't optional. My day-to-day lives in PySpark, Airflow, Snowflake, and AWS.
 
-After hours, I've been exploring what LLMs can do when wired into real data systems. That curiosity led me to build a RAG-based meeting summarizer - and eventually back to school. I'm currently doing my **MS in Information Systems** to advance my skills on scalable data platforms, and AI-driven data solutions.
+After hours, I've been exploring what LLMs can do when wired into real data systems. That curiosity led me to build a RAG-based meeting summarizer - and eventually back to school. I'm currently doing my **MS in Information Studies** to advance my skills on scalable data platforms, and AI-driven data solutions.
 
 ---
 
@@ -64,8 +64,8 @@ Turns meeting recordings into structured summaries using Whisper transcription, 
 ---
 
 ## 📫 Connect With Me
-- 💼 LinkedIn: *www.linkedin.com/in/priyusha24*
-- 💻 GitHub: https://github.com/priyushach99
+- LinkedIn: *www.linkedin.com/in/priyusha24*
+- GitHub: https://github.com/priyushach99
 
 ---
 
