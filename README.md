@@ -25,7 +25,11 @@ After hours, I've been exploring what LLMs can do when wired into real data syst
 ### 📁 [AI Unified Data Platform](https://github.com/priyushach99/ai-unified-data-platform)
 > `PySpark` `Kafka` `Airflow` `PostgreSQL` `GPT-4o` `Docker` `Python`
 
-A fully operational banking transaction intelligence pipeline — dual ingestion (Spark batch + Kafka streaming), shared transformation layer, PostgreSQL storage with schema evolution, and GPT-4o anomaly summarization. Built with production-grade decisions: MD5-keyed LLM cache, graceful fallback on API failure, weighted-average Kafka micro-batch merging, and a rule engine that acts as immutable ground truth before any LLM call.
+Built a production-grade data engineering pipeline that processes banking transactions through dual ingestion paths — Spark batch ETL and Kafka streaming — feeding clean data into PostgreSQL, then layering GPT-4o on top for AI-generated financial anomaly summaries, all orchestrated via Airflow. 
+
+The real engineering challenge was LLM prompt design: a naive row-level approach ballooned to 8,500+ tokens and hit rate limits, so I built a rule engine that pre-aggregates transactions into deterministic signals — keeping the prompt fixed at ~800 tokens regardless of whether you're processing 700 or 5 million transactions. The LLM narrates, never recalculates — hallucinated figures in financial output aren't acceptable. 
+
+Includes MD5-keyed caching to skip redundant LLM calls, graceful fallback to rule-based summaries on API failure, and incremental weighted-average merging for Kafka micro-batches so daily totals accumulate correctly across 10-second windows.
 
 ---
 
@@ -42,20 +46,28 @@ The interesting engineering challenge was getting RAG retrieval quality right �
 
 ## Technical Skills
 
-**Data & pipelines**
-`PySpark` `Spark SQL` `Apache Airflow` `ETL / ELT` `Snowflake` `PostgreSQL` `Apache Kafka`
-
-**Cloud & infra**
-`AWS S3` `AWS IAM` `Linux` `Shell`
-
 **Languages**
-`Python` `SQL` `Java` `JavaScript` `TypeScript` `Bash`
+`Python` `SQL` `PySpark` `Spark SQL` `Java` `JavaScript` `TypeScript` `Bash` `Linux/Shell`
+
+**Data Engineering & Pipelines**
+`Apache Spark` `Apache Kafka` `Apache Airflow` `ETL / ELT` `Spark Structured Streaming`
+`Kafka Streaming` `dbt` `Data Quality Frameworks` `Query Optimization`
+
+**Databases**
+`Snowflake` `PostgreSQL` `MongoDB` `NoSQL` `Database Design` 
 
 **GenAI / LLM**
-`LLaMA3` `Groq` `OpenAI Whisper` `FAISS` `Sentence Transformers` `RAG`
+`LLaMA 3` `Groq` `OpenAI` `Anthropic` `Model Context Protocol (MCP)` `Agent-to-Agent (A2A)`
+`RAG` `FAISS` `Sentence Transformers` `OpenAI Whisper` `Prompt Engineering` `PyDub` `ReportLab` `FPDF`
 
-**Frontend & tools**
-`React` `Node.js` `Tableau` `Git` `Jenkins`
+**Cloud & DevOps**
+`AWS S3` `AWS IAM` `Secure Cloud Data Ingestion` `GitLab CI/CD` `Jenkins` `Docker` `Git`
+
+**Data & Visualization**
+`Pandas` `NumPy` `Scikit-learn` `Tableau` `PowerBI`
+
+**Frontend & Frameworks**
+`React` `Node.js` `Angular` `Streamlit`
 
 ---
 
