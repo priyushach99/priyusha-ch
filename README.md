@@ -32,7 +32,11 @@ A fully operational banking transaction intelligence pipeline — dual ingestion
 ### 📁 [LLM-Powered Meeting Intelligence System](https://github.com/priyushach99/llm_meeting_summarizer)
 > `Python` `LLaMA3` `FAISS` `Whisper` `RAG`
 
-Turns meeting recordings into structured summaries using Whisper transcription, FAISS vector search, and LLM generation. The project that started the GenAI path — and eventually the MS.
+Tired of losing track of decisions and action items after long meetings, I built a fully local AI pipeline that turns raw audio into structured intelligence — transcripts, summaries, owner-assigned action items, and a Q&A interface to interrogate the meeting like a document. 
+
+Chains Whisper → SentenceTransformers → FAISS → LLaMA 3, all running on your machine with zero API costs. 
+
+The interesting engineering challenge was getting RAG retrieval quality right — naive chunking produced weak context, so I tuned chunk size, overlap, and similarity thresholds until results felt genuinely useful. Includes deterministic caching and one-click PDF export.
 
 ---
 
