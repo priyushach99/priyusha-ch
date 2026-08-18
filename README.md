@@ -107,7 +107,7 @@ I'm always interested in connecting with engineers, recruiters, and people build
 
 * 💼 [LinkedIn](https://www.linkedin.com/in/priyusha24)
 * 💻 [GitHub](https://github.com/priyushach99)
-* 🌐 [Portfolio](https://priyusha-ch.vercel.app/)
+* 🌐 [Portfolio](https://priyushach.vercel.app/)
 
 ---
 
