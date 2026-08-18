@@ -4,7 +4,7 @@
 
 I’m a Software Engineer with production experience building **data pipelines, backend services, and distributed systems** at scale. I enjoy working on systems where reliability, performance, and data correctness matter.
 
-Currently, I'm pursuing an **MS in Information Studies** while expanding my work into **AI/ML and AI-powered applications**. I'm also working as an **AI Intern at Balanx Bio**, a bioinformatics startup, contributing to **data modeling, API development, and AI-focused backend systems**. My interests sit at the intersection of **backend engineering, data platforms, distributed systems, and applied AI**.
+Currently, I'm pursuing an **MS in Information Studies** while expanding my work into **AI/ML and AI-powered applications**. I'm also working as an **AI Intern at Balanx Bio**, a bioinformatics startup, contributing to data modeling, API development, and AI-focused backend systems. My interests sit at the intersection of **backend engineering, data platforms, distributed systems, and applied AI**.
 
 ---
 
