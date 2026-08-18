@@ -1,87 +1,114 @@
-## 👨‍💻 About Me
+# Hi, I'm Priyusha Chinta 👋
 
-# Hi, I'm Priyusha 👋
+**Software Engineer | Data & Distributed Systems | AI/ML**
 
-Data engineer with experience in building batch pipelines that process millions of records daily - the kind where correctness and reliability aren't optional. My day-to-day lives in PySpark, Java, Airflow, Snowflake, and AWS.
+I’m a Software Engineer with production experience building **data pipelines, backend services, and distributed systems** at scale. I enjoy working on systems where reliability, performance, and data correctness matter.
 
-After hours, I've been exploring what LLMs can do when wired into real data systems. That curiosity led me to build a RAG-based meeting summarizer - and eventually back to school. I'm currently doing my **MS in Information Studies** to advance my skills on scalable data platforms, and AI-driven data solutions.
-
----
-
-## What I actually build
-
-| | |
-|---|---|
-| 🔄 **Batch pipelines** | High-volume PySpark ETL with incremental loads, schema drift handling, and data quality validation gates |
-| ⚡ **Streaming** | Kafka + Spark Structured Streaming — micro-batch processing with checkpoint recovery and weighted-merge aggregation |
-| 🌿 **Orchestration** | Airflow DAGs with dependency management, retry logic, SLA tracking, and automated archival |
-| 🗄️ **Data storage** | Snowflake and PostgreSQL on AWS — analytical and transactional, both at scale |
-| 🤖 **LLM integration** | GPT-4o via prompt engineering, RAG with FAISS, rule-engine-as-ground-truth pattern to prevent hallucinated figures |
+Currently, I'm pursuing an **MS in Information Studies** while expanding my work into **AI/ML and AI-powered applications**. I'm also working as an **AI Intern at Balanx Bio**, a bioinformatics startup, contributing to **data modeling, API development, and AI-focused backend systems**. My interests sit at the intersection of **backend engineering, data platforms, distributed systems, and applied AI**.
 
 ---
 
-## Featured projects
+## 🚀 What I Build
 
-### 📁 [AI Unified Data Platform](https://github.com/priyushach99/ai-unified-data-platform)
-> `PySpark` `Kafka` `Airflow` `PostgreSQL` `GPT-4o` `Docker` `Python`
-
-Built a production-grade data engineering pipeline that processes banking transactions through dual ingestion paths — Spark batch ETL and Kafka streaming — feeding clean data into PostgreSQL, then layering GPT-4o on top for AI-generated financial anomaly summaries, all orchestrated via Airflow. 
-
-The real engineering challenge was LLM prompt design: a naive row-level approach ballooned to 8,500+ tokens and hit rate limits, so I built a rule engine that pre-aggregates transactions into deterministic signals — keeping the prompt fixed at ~800 tokens regardless of whether you're processing 700 or 5 million transactions. The LLM narrates, never recalculates — hallucinated figures in financial output aren't acceptable. 
-
-Includes MD5-keyed caching to skip redundant LLM calls, graceful fallback to rule-based summaries on API failure, and incremental weighted-average merging for Kafka micro-batches so daily totals accumulate correctly across 10-second windows.
-
----
-
-### 📁 [LLM-Powered Meeting Intelligence System](https://github.com/priyushach99/llm_meeting_summarizer)
-> `Python` `LLaMA3` `FAISS` `Whisper` `RAG`
-
-Tired of losing track of decisions and action items after long meetings, I built a fully local AI pipeline that turns raw audio into structured intelligence — transcripts, summaries, owner-assigned action items, and a Q&A interface to interrogate the meeting like a document. 
-
-Chains Whisper → SentenceTransformers → FAISS → LLaMA 3, all running on your machine with zero API costs. 
-
-The interesting engineering challenge was getting RAG retrieval quality right — naive chunking produced weak context, so I tuned chunk size, overlap, and similarity thresholds until results felt genuinely useful. Includes deterministic caching and one-click PDF export.
+|                                     |                                                                                                                             |
+| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| ⚙️ **Backend Systems**              | FastAPI, Java, REST APIs, GraphQL, microservices, and production-oriented service design                                    |
+| 🔄 **Data Engineering**             | PySpark ETL, Spark SQL, Kafka streaming, Airflow orchestration, and large-scale data processing                             |
+| ☁️ **Cloud & Infrastructure**       | AWS, Docker, Jenkins, CI/CD, Linux, and production data workflows                                                           |
+| 🤖 **AI/ML Applications**           | scikit-learn, PyTorch, RAG, FAISS, Sentence Transformers, Whisper, and LLM-powered applications                             |
+| 🛡️ **Reliability & Observability** | Telemetry pipelines, rolling-window features, ML-based failure prediction, alerting, retries, backfills, and SLA monitoring |
 
 ---
 
-## Technical Skills
+## ⭐ Featured Projects
 
-**Languages**
-`Python` `SQL` `PySpark` `Spark SQL` `Java` `JavaScript` `TypeScript` `Bash` `Linux/Shell`
+### 🛡️ [PulseGuard — Proactive API Failure Prediction & Observability Platform](https://github.com/priyushach99/pulseguard)
 
-**Data Engineering & Pipelines**
-`Apache Spark` `Apache Kafka` `Apache Airflow` `ETL / ELT` `Spark Structured Streaming`
-`Kafka Streaming` `dbt` `Data Quality Frameworks` `Query Optimization`
+`Python` `scikit-learn` `PostgreSQL` `Redis` `FastAPI` `Docker`
 
-**Databases**
-`Snowflake` `PostgreSQL` `MongoDB` `NoSQL` `Database Design` 
+An ML-powered observability platform that analyzes API telemetry to **predict failures 30 seconds ahead** and generate proactive alerts.
 
-**GenAI / LLM**
-`LLaMA 3` `Groq` `OpenAI` `Anthropic` `Model Context Protocol (MCP)` `Agent-to-Agent (A2A)`
-`RAG` `FAISS` `Sentence Transformers` `OpenAI Whisper` `Prompt Engineering` `PyDub` `ReportLab` `FPDF`
-
-**Cloud & DevOps**
-`AWS S3` `AWS IAM` `Secure Cloud Data Ingestion` `GitLab CI/CD` `Jenkins` `Docker` `Git`
-
-**Data & Visualization**
-`Pandas` `NumPy` `Scikit-learn` `Tableau` `PowerBI`
-
-**Frontend & Frameworks**
-`React` `Node.js` `Angular` `Streamlit`
+* Designed rolling-window features across **latency, error rates, resource utilization, and request patterns**, achieving **93% precision and 59% recall** for 30-second-ahead failure prediction.
+* Implemented **threshold-optimized ML alerting** to balance failure detection with false positives.
+* Built a telemetry pipeline processing **10K+ API events** using Python and PostgreSQL.
+* Added Redis caching for real-time prediction serving, achieving **3.73 ms average cache-hit latency** while avoiding redundant model inference.
 
 ---
 
-## Currently
+### ⚡ [AI Unified Data Platform — Real-Time & Batch Data Intelligence Platform](https://github.com/priyushach99/ai-unified-data-platform)
 
-- 🔍 Exploring agentic pipelines that connect LLMs to production data systems
-- 💼 Open to **SDE**, **Data engineering** and **AI/ML engineering** roles
+`PySpark` `Kafka` `PostgreSQL` `Airflow` `GPT-4o` `Docker`
+
+A dual-path data platform combining **Spark batch processing and Kafka streaming** to process transaction data and generate LLM-powered insights.
+
+* Engineered Spark batch ETL and **Kafka Structured Streaming** with a shared transformation layer and checkpoint-based recovery.
+* Reduced LLM inference cost by **90%**, restructuring prompts from approximately **8,500 to 800 tokens** without accuracy loss.
+* Designed a **hybrid rule-based + LLM architecture** where deterministic logic provides auditable signals while the LLM generates natural-language insights.
+* Implemented graceful fallback behavior during external API failures.
 
 ---
 
-## 📫 Connect With Me
-- LinkedIn: *www.linkedin.com/in/priyusha24*
-- GitHub: https://github.com/priyushach99
+### 🧠 [LLM-Powered Meeting Intelligence Tool](https://github.com/priyushach99/llm_meeting_summarizer)
+
+`Python` `RAG` `Sentence Transformers` `FAISS` `Whisper` `LLaMA` `Streamlit`
+
+An AI application that transforms meeting recordings into **transcripts, summaries, action items, and searchable knowledge**.
+
+* Built a FAISS-based semantic retrieval layer over meeting transcripts, improving **action-item extraction accuracy by 35%**.
+* Diagnosed and resolved LLM hallucinations by tightening retrieval logic and adding explicit **"not covered" fallback handling**.
+* Built a Streamlit interface for uploading recordings, reviewing summaries, and querying previous meetings using natural language.
 
 ---
 
-⭐ If you like my work, feel free to star my repositories!
+## 💻 Technical Skills
+
+### Languages
+
+`Python` `SQL` `Java` `JavaScript` `TypeScript` `Bash`
+
+### Backend & APIs
+
+`FastAPI` `GraphQL` `REST APIs` `Microservices` `Pytest`
+
+### Data Engineering
+
+`PySpark` `Apache Spark` `Spark SQL` `Apache Kafka` `Apache Airflow` `ETL / ELT`
+
+### Databases
+
+`PostgreSQL` `Snowflake` `Redis`
+
+### Cloud & DevOps
+
+`AWS` `S3` `Lambda` `IAM` `Docker` `Jenkins` `Linux` `CI/CD` `Git`
+
+### AI / Machine Learning
+
+`scikit-learn` `PyTorch` `RAG` `FAISS` `Sentence Transformers` `OpenAI Whisper` `Prompt Engineering`
+
+### Frontend
+
+`React` `TypeScript` `Tailwind` `Streamlit`
+
+---
+
+## 🎓 Currently
+
+* 🎓 Pursuing an **MS in Information Studies** at Trine University
+* 🤖 Exploring **AI/ML applications and AI-powered data systems**
+* ⚙️ Building projects around **backend engineering, distributed systems, and data platforms**
+* 🔍 Interested in solving challenging engineering problems and learning new technologies
+
+---
+
+## 📫 Let's Connect
+
+I'm always interested in connecting with engineers, recruiters, and people building interesting things with **data, distributed systems, backend technologies, and AI**.
+
+* 💼 [LinkedIn](https://www.linkedin.com/in/priyusha24)
+* 💻 [GitHub](https://github.com/priyushach99)
+* 🌐 [Portfolio](https://priyusha-ch.vercel.app/)
+
+---
+
+⭐ Feel free to explore my repositories and check out the projects I'm building.
